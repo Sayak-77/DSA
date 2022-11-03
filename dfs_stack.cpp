@@ -39,12 +39,17 @@ class Dfs
 };
 int main()
 {
-    Dfs g(5);
+    int len,temp;
+    cout<<"Enter the number of vertices: ";
+    cin>>len;
+    Dfs g(len);
     g.add(0,1);
     g.add(1,3);
     g.add(3,2);
     g.add(1,4);
     g.add(2,3);
-    cout<<" Depth First Traversal: ";
-    g.dfs(0);
+    cout<<"Enter the starting vertex: ";
+    cin>>temp;
+    cout<<"\n\nDepth First Traversal: ";
+    g.dfs(temp);
 }
