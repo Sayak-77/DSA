@@ -46,5 +46,5 @@ int main()
     g.add(1,4);
     g.add(2,3);
     cout<<" Depth First Traversal: ";
-    g.dfs(0)
+    g.dfs(0);
 }
