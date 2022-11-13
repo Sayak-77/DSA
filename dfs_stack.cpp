@@ -50,6 +50,6 @@ int main()
     g.add(2,3);
     cout<<"Enter the starting vertex: ";
     cin>>temp;
-    cout<<"\nDepth First Traversal: ";
+    cout<<"\n\nDepth First Traversal: ";
     g.dfs(temp);
 }
